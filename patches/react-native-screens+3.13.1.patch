@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-screens/android/build.gradle b/node_modules/react-native-screens/android/build.gradle
+index 5097a1a..89327a1 100644
+--- a/node_modules/react-native-screens/android/build.gradle
++++ b/node_modules/react-native-screens/android/build.gradle
+@@ -8,7 +8,7 @@ buildscript {
+     }
+     dependencies {
+         classpath('com.android.tools.build:gradle:4.2.2')
+-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${safeExtGet('kotlinVersion', '1.4.10')}"
++        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${safeExtGet('kotlinVersion', '1.6.21')}"
+         classpath "com.diffplug.spotless:spotless-plugin-gradle:5.15.0"
+     }
+ }
